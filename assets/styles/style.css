@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+nav {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-logo-container {
+  display: none;
+}
+
+.header-container {
+  background-color: #f72210;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+  }
+
+  .header-logo-container {
+    display: block;
+  }
+
+  .header-container {
+    height: 95px;
+  }
+}
