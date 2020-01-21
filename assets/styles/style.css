@@ -14,9 +14,12 @@ nav {
 
 .header-date-container {
   display: none;
+  margin-left: 15px;
 }
 
 .header-container {
+  display: flex;
+  justify-content: space-between;
   background-color: #f72210;
   height: 50px;
 }
@@ -62,6 +65,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 15px;
 }
 
 .header-auth-container > * {
@@ -87,6 +91,11 @@ nav {
 }
 
 @media (min-width: 768px) {
+  
+}
+
+@media (min-width: 990px) {
+
   .header-date-container {
     display: block;
     align-self: flex-end;
@@ -116,9 +125,7 @@ nav {
   .bars-menu {
     display: none;
   }
-}
 
-@media (min-width: 990px) {
   nav {
     display: flex;
     position: relative;
