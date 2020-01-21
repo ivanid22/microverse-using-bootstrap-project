@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
 header {
   width: 100%;
   max-width: 1310px;
@@ -10,7 +12,7 @@ nav {
   justify-content: space-between;
 }
 
-.header-logo-container {
+.header-date-container {
   display: none;
 }
 
@@ -19,16 +21,103 @@ nav {
   height: 50px;
 }
 
+.header-logo-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-date-container {
+  display: none;
+}
+
+.header-date-container p {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+.header-logo {
+  width: 132px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.header-logo .st0 {
+  fill: white;
+}
+
+.bars-menu {
+  height: 41px;
+  width: 35px;
+  margin-left: 8px;
+}
+
+.bars-menu path {
+  fill: rgb(251, 154, 148);
+}
+
+.header-auth-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-auth-container > * {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.header-auth-links {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0 6px;
+}
+
+.sign-in {
+  color: white;
+}
+
+.subscribe {
+  color: #f72210;
+  background-color: white;
+}
+
 @media (min-width: 768px) {
   nav {
     display: flex;
   }
 
-  .header-logo-container {
+  .header-date-container {
     display: block;
+    align-self: flex-end;
   }
 
   .header-container {
     height: 95px;
+  }
+
+  .header-logo-container {
+    justify-content: center;
+  }
+
+  .header-auth-container {
+    align-items: flex-end;
+  }
+
+  .header-auth-container > * {
+    margin-bottom: 16px;
+  }
+
+  .header-logo {
+    width: 396px;
+    height: 60px;
+  }
+
+  .bars-menu {
+    display: none;
   }
 }
