@@ -9,7 +9,7 @@ header {
 nav {
   display: none;
   width: 100%;
-  justify-content: space-between;
+  height: 56px;
 }
 
 .header-date-container {
@@ -87,10 +87,6 @@ nav {
 }
 
 @media (min-width: 768px) {
-  nav {
-    display: flex;
-  }
-
   .header-date-container {
     display: block;
     align-self: flex-end;
@@ -119,5 +115,54 @@ nav {
 
   .bars-menu {
     display: none;
+  }
+}
+
+@media (min-width: 990px) {
+  nav {
+    display: flex;
+    position: relative;
+  }
+
+  .nav-links {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-link-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    line-height: 21px;
+    padding: 0 5px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .search-area {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  .search-area i {
+    width:16px;
+    height: 16px;
+    margin-left: 5px;
+  }
+
+  .nav-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 78px;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
   }
 }
