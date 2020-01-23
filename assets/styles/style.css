@@ -278,7 +278,7 @@ main {
 
 .story-alt-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .story-alt-description {
@@ -333,4 +333,8 @@ main {
   .opinion-section-item {
     padding-bottom: 10px;
   }
+}
+
+.latest-news-item > .story-alt-description {
+  justify-content: flex-start;
 }
