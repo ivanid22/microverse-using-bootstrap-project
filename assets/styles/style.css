@@ -429,5 +429,92 @@ main {
 
 .type2-article-link {
   font: 20px "Roboto Condensed", sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.newsweek-conversations-section > div {
+  padding: 0;
+}
+
+.conversations-summary-left {
+  font: 15px Arial, Helvetica, sans-serif;
+  padding: 30px 25px;
+  color: white;
+  background-color: black;
+}
+
+.conversations-summary-left a {
+  font: 28px "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.conversations-summary-left p:nth-child(2) {
+  color: #c6c6c6;
+}
+
+.conversations-summary-left p:last-child {
+  color: #777;
+  font-size: 18px;
+}
+
+.conversations-image-cover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 317px;
+  background: url('https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.play-icon-large {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.play-icon-small {
+  max-height: 30px;
+  max-width: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.conversations-summary-left {
+  height: 100%;
+}
+
+.conversations-links-item {
+  position: relative;
+  background-color: black;
+}
+
+.conversations-links-item > img {
+  width: 100%;
+  height: 100%;
+}
+
+.conversations-links-item-summary {
+  padding: 5px 5px;
+}
+
+.conversations-links-item-summary h4 {
+  color: white;
+  font: 18px "Roboto Condensed", sans-serif;
+  line-height: 20px;
+}
+
+.conversations-links-item-summary p {
+  color: #777;
+  font: 18px Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .conversations-links-item > img {
+    max-height: 230px;
+  }
 }
