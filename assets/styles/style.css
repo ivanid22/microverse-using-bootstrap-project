@@ -338,3 +338,45 @@ main {
 .latest-news-item > .story-alt-description {
   justify-content: flex-start;
 }
+
+.newsletter-ad-section {
+  justify-content: center;
+}
+
+.newsletter-ad-container {
+  margin-top: 10px;
+  color: #333;
+  background-color: rgb(244, 245, 246);
+  border: 1px solid rgb(229, 229, 229);
+  padding: 20px;
+  max-width: 300px;
+}
+
+.newsletter-ad-heading > p {
+  font: bold 19px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.signup-button {
+  font: 18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 7px 0 0 16px;
+  width: 100px;
+  height: 38px;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: #666;
+}
+
+.preferences-link {
+  font: 15px "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  color: #333;
+}
+
+.newsweek-icon {
+  margin: 7px 7px 0 0;
+  width: 29px;
+  height: 28px;
+}
