@@ -380,3 +380,54 @@ main {
   width: 29px;
   height: 28px;
 }
+
+.in-the-magazine-section {
+  margin-top: 20px;
+}
+
+.site-section-heading > img {
+  width: 29px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+.site-section-heading-container {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+}
+
+.site-section-heading > p {
+  font: 19px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.type2-article-image-cover {
+  width: 100%;
+  height: auto;
+}
+
+.type2-article-category-container a {
+  font: 16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.type2-article-category-container {
+  margin: 10px 0;
+}
+
+.type2-article-category-container > a:first-child {
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  padding: 0 7px;
+}
+
+.type2-article-category-container > a:last-child {
+  color: #f72210;
+}
+
+.type2-article-link {
+  font: 20px "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+}
