@@ -570,4 +570,29 @@ main {
 
 .cover-link {
   font: 22px "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.article-section {
+  margin-bottom: 40px;
+}
+
+.article-section .story-alt-container .img {
+  height: auto;
+}
+
+.article-section .article-section-heading {
+  font: 22px "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: #f72210;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 15px;
+}
+
+.article-section > div .story-alt-container:first-child {
+  border-top: none;
+}
+
+.article-section > div .story-alt-container:last-child {
+  border-bottom: none;
 }
