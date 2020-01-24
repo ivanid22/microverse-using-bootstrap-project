@@ -511,10 +511,20 @@ main {
 .conversations-links-item-summary p {
   color: #777;
   font: 18px Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+.conversations-links-item-cover-image {
+  position: relative;
+  height: 120px;
+  width: 100%;
+  background: url('https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f');
+  background-position: center;
+  background-size: cover;
 }
 
 @media (max-width: 767px) {
-  .conversations-links-item > img {
-    max-height: 230px;
+  .conversations-links-item-cover-image {
+    height: 215px;
   }
 }
