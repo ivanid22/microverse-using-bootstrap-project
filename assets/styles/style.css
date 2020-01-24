@@ -447,6 +447,10 @@ main {
   background-color: black;
 }
 
+.conversation-links-container {
+  justify-content: space-between;
+}
+
 .conversations-summary-left a {
   font: 28px "Roboto Condensed", sans-serif;
   text-decoration: none;
@@ -531,4 +535,39 @@ main {
   .conversations-links-item-cover-image {
     height: 215px;
   }
+}
+
+.editors-pick-section {
+  margin-bottom: 30px;
+}
+
+.slideshow-item-container {
+  margin-bottom: 10px;
+}
+
+.slideshow-item-container > img {
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-count {
+  position: absolute;
+  top: -52px;
+  width: 70px;
+  height: 52px;
+  color: #e9212e;
+  background-image: url('https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png');
+  background-size: contain;
+  font: 20px Arial, Helvetica, sans-serif;
+  line-height: 58px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cover-link-container {
+  position: relative;
+}
+
+.cover-link {
+  font: 22px "Roboto Condensed", sans-serif;
 }
