@@ -436,6 +436,10 @@ main {
   padding: 0;
 }
 
+.newsweek-conversations-section {
+  margin-bottom: 30px;
+}
+
 .conversations-summary-left {
   font: 15px Arial, Helvetica, sans-serif;
   padding: 30px 25px;
