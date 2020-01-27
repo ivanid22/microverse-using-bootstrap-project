@@ -22,6 +22,18 @@ a {
   color: black;
 }
 
+.header-margin {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.header-spacing {
+  height: 50px;
+  width: 100%;
+}
+
 .header-date-container {
   display: none;
   margin-left: 15px;
@@ -101,6 +113,9 @@ a {
 }
 
 @media (min-width: 990px) {
+  .header-spacing {
+    height: 161px;
+  }
 
   .header-date-container {
     display: block;
@@ -139,6 +154,7 @@ a {
 
   .nav-links {
     display: flex;
+    background-color: white;
     width: 95%;
     align-items: center;
     justify-content: space-between;
