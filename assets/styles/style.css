@@ -53,10 +53,6 @@ a {
   justify-content: flex-start;
 }
 
-.header-date-container {
-  display: none;
-}
-
 .header-date-container p {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -181,7 +177,7 @@ a {
   }
 
   .search-area i {
-    width:16px;
+    width: 16px;
     height: 16px;
     margin-left: 5px;
   }
@@ -269,17 +265,20 @@ main {
 
 .culture-and-travel-section .article-title {
   font: 20px 'Lora', serif;
-
 }
 
 .category-footer {
   width: 20%;
   padding: 0 6px;
   background-color: #c2d4d7;
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
   color: #272727;
+}
+
+footer > .row {
+  width: 100%;
 }
 
 .more-stories-section > .row:first-child {
@@ -321,6 +320,10 @@ main {
   border-top: 1px solid rgb(221, 221, 221);
 }
 
+.newsweek-conversations-section > div {
+  padding: 0;
+}
+
 .opinion-section-container > div:first-child {
   border-top: none;
 }
@@ -346,7 +349,7 @@ main {
   margin-top: 5px;
 }
 
-@media(max-width: 990px) {
+@media (max-width: 990px) {
   .opinion-section-item {
     padding-bottom: 10px;
   }
@@ -433,6 +436,22 @@ main {
   margin: 10px 0;
 }
 
+.conversations-summary-left a {
+  font: 28px "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a {
+  white-space: nowrap;
+  text-decoration: none;
+  border-right: 1px solid #d9d9d9;
+  padding: 0 10px;
+  font: 14px Arial, Helvetica, sans-serif;
+  line-height: 21px;
+  color: #666;
+}
+
 .type2-article-category-container > a:first-child {
   background-color: #f72210;
   color: white;
@@ -449,15 +468,12 @@ main {
   margin-bottom: 30px;
 }
 
-.newsweek-conversations-section > div {
-  padding: 0;
-}
-
 .newsweek-conversations-section {
   margin-bottom: 30px;
 }
 
 .conversations-summary-left {
+  height: 100%;
   font: 15px Arial, Helvetica, sans-serif;
   padding: 30px 25px;
   color: white;
@@ -468,10 +484,23 @@ main {
   justify-content: space-between;
 }
 
-.conversations-summary-left a {
-  font: 28px "Roboto Condensed", sans-serif;
-  text-decoration: none;
-  color: white;
+.conversations-links-item-summary p {
+  color: #777;
+  font: 18px Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+.subscribe-ad-summary > p {
+  font: 15px Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+.footer-copyright > p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
 }
 
 .conversations-summary-left p:nth-child(2) {
@@ -509,10 +538,6 @@ main {
   left: 0;
 }
 
-.conversations-summary-left {
-  height: 100%;
-}
-
 .conversations-links-item {
   position: relative;
   background-color: black;
@@ -531,12 +556,6 @@ main {
   color: white;
   font: 18px "Roboto Condensed", sans-serif;
   line-height: 20px;
-}
-
-.conversations-links-item-summary p {
-  color: #777;
-  font: 18px Arial, Helvetica, sans-serif;
-  margin-bottom: 0;
 }
 
 .conversations-links-item-cover-image {
@@ -666,11 +685,6 @@ main {
   margin-bottom: 15px;
 }
 
-.subscribe-ad-summary > p {
-  font: 15px Helvetica, Arial, sans-serif;
-  margin-bottom: 25px;
-}
-
 .sign-up-image-cover {
   min-height: 160px;
   background-clip: content-box;
@@ -711,18 +725,6 @@ main {
   align-items: flex-end;
 }
 
-.footer-copyright > p {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  color: #666;
-  text-transform: uppercase;
-}
-
-footer > .row {
-  width: 100%;
-}
-
 .footer-social {
   align-items: flex-end;
 }
@@ -739,16 +741,6 @@ footer > .row {
 
 .footer-links {
   margin-top: 10px;
-}
-
-.footer-links a {
-  white-space: nowrap;
-  text-decoration: none;
-  border-right: 1px solid #d9d9d9;
-  padding: 0 10px;
-  font: 14px Arial, Helvetica, sans-serif;
-  line-height: 21px;
-  color: #666;
 }
 
 .editions-links > a:first-child {
