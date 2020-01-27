@@ -95,10 +95,6 @@ a {
   background-color: white;
 }
 
-@media (min-width: 768px) {
-  
-}
-
 @media (min-width: 990px) {
 
   .header-date-container {
@@ -595,4 +591,55 @@ main {
 
 .article-section > div .story-alt-container:last-child {
   border-bottom: none;
+}
+
+.subscribe-ad {
+  background-color: #f4f5f6;
+}
+
+.subscribe-cover-container {
+  width: 260px;
+  height: 241px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.subscribe-cover-container > img {
+  width: 170px;
+  height: 227px;
+  position: absolute;
+}
+
+.subscribe-cover-container > img:first-child {
+  top: 0;
+  left: 0;
+}
+
+.subscribe-cover-container > img:last-child {
+  bottom: 0;
+  right: 0;
+}
+
+.subscribe-content {
+  padding: 25px;
+}
+
+.subscribe-button {
+  text-decoration: none;
+  background-color: #f72210;
+  color: white;
+  padding: 8px 16px 0 11px;
+  width: 121px;
+}
+
+.subscribe-ad-summary > h4 {
+  font: 24px "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.subscribe-ad-summary > p {
+  font: 15px Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
 }
