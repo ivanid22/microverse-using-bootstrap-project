@@ -593,8 +593,9 @@ main {
   border-bottom: none;
 }
 
-.subscribe-ad {
+.subscribe-content {
   background-color: #f4f5f6;
+  background-clip: content-box;
 }
 
 .subscribe-cover-container {
@@ -620,16 +621,16 @@ main {
   right: 0;
 }
 
-.subscribe-content {
-  padding: 25px;
-}
-
 .subscribe-button {
   text-decoration: none;
   background-color: #f72210;
   color: white;
   padding: 8px 16px 0 11px;
   width: 121px;
+}
+
+.subscribe-ad-summary {
+  align-items: flex-start;
 }
 
 .subscribe-ad-summary > h4 {
@@ -642,4 +643,23 @@ main {
 .subscribe-ad-summary > p {
   font: 15px Helvetica, Arial, sans-serif;
   margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .subscribe-ad-summary {
+    align-items: center;
+  }
+}
+
+.sign-up-image-cover {
+  min-height: 160px;
+  background-clip: content-box;
+  background-image: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.subscription-section .article-section-heading {
+  color: #f72210;
+  margin: 10px 0;
 }
